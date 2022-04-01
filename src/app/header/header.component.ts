@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Singhabi } from '../singhabi';
+import { currStudent } from '../../assets/data/Data';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  studentDetails = currStudent;
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

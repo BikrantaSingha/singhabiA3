@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Singhabi } from '../singhabi';
+import { currStudent } from '../../assets/data/Data';
 
 @Component({
   selector: 'app-footer',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+
+  studentDetails = currStudent;
 
   constructor() { }
 
