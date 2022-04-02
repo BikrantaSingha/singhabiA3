@@ -2,3 +2,22 @@
 	cursor:  pointer;
 }
 
+.grid-container{
+	display:  flex;
+}
+
+.section-A{
+	margin-right:  50px;
+}
+
+@media(orientation: landscape){
+	.grid-container{
+		flex-direction: row;
+	}
+}
+
+@media(orientation: portrait){
+	.grid-container{
+		flex-direction: column;
+	}
+}
