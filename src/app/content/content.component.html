@@ -1,1 +1,14 @@
-<p>content works!</p>
+<div class="section-A">
+	<h3>Courses</h3>
+	<ul>
+		<li *ngFor="let item of courses; let i=index">
+			<span (click)="clickHandler(item.ccode)">
+			  {{ item.ccode }}
+			</span>
+		</li>
+	</ul>
+</div>
+
+<div class="section-B" [innerHtml]="htmlVariable">
+
+</div>

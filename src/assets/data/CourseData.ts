@@ -1,6 +1,6 @@
 import { Course } from '../../app/courseInfo';
 
-export const MYCOURSES: CourseInfo[] = [
+export const MYCOURSES: Course[] = [
 {ccode:"001", ctitle:"course 1", cday:"Monday", cprofessor:"John Doe"},
 {ccode:"002", ctitle:"course 2", cday:"Tuesday", cprofessor:"Jane Doe"},
 {ccode:"003", ctitle:"course 3", cday:"Wednesday", cprofessor:"John Smith"},
